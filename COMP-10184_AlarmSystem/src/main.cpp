@@ -93,7 +93,6 @@ void alarmCountdown() {
 
   if (bIsButtonPressed) {
     iAlarmState = ALARM_DISABLED;
-    bIsButtonPressed = true;
     if (bDebugMode) Serial.println("Alarm Disabled(1)!");
   } else {
     iAlarmState = ALARM_ACTIVE;
